@@ -32,3 +32,10 @@ WriteMakefile(
                              },
              );
 
+sub MY::postamble {
+        '
+readme: 
+	podselect -sect README rcsfreeze.pl | pod2text >README
+
+';
+}

@@ -1,24 +1,24 @@
 README
-     rcsfreeze.pl is a perl script to freeze a configuration of 
-     sources checked in under RCS. 
+     rcsfreeze.pl is a perl script to freeze a configuration of
+     sources checked in under RCS.
 
      This perl script is a complete rewrite of the rcsfreeze.sh shell
      script contained in  the RCS package with its RCS ID:
            "rcsfreeze.sh,v  4.6  1993/11/03 17:42:27 eggert Exp"
      The major differences between the shell script and the perl
      script are the following:
-     the input argument "symb revision number" 
+     the input argument "symb revision number"
          - is optional for the shell script. Internally an unique
-           revision number is used. 
+           revision number is used.
          - is mandatory for the perl script. Only this symbolic
            revision number is used.
      the log message
-         - is saved by the shell script in its own file 
+         - is saved by the shell script in its own file
            rcsfreeze.log. But there are no tools available to
            retrieve the log messages for a given revision number.
          - is saved by the perl script amongst the other RCS log
-           messages.  Therefore they can be retrieved with the 
-           appropriate rlog command. 
+           messages.  Therefore they can be retrieved with the
+           appropriate rlog command.
 
      For more information on how to use the script, see the pod
      documentation or view the man pages.
@@ -27,6 +27,6 @@ README
      INSTALL.
 
      Problems, questions, etc. may be sent to nog@MPA-Garching.MPG.DE
-     
+
      For Copyright see the pod documentation.
 
