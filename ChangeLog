@@ -1,0 +1,43 @@
+Wed Oct 27 08:13:15 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	- following POD documentation sections modified
+	  README
+	  SCRIPT CATEGORIES
+	  AUTHOR
+	  COPYRIGHT
+
+Tue Aug 17 11:35:01 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	script header completely restructured
+	RCS bindir now OS dependent
+	variables for recursion removed
+	argument rcsdir added to set_rcs_symrev
+	POD doku completely restructured
+
+Thu Jun 17 07:14:21 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	removed "use lib ..."
+	removed option "recursive"
+
+Wed Jun 16 06:58:04 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	check for existence of directory RCS
+
+Tue Jun 15 05:54:16 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	prolog for log-message expanded
+
+Mon Jun 14 11:10:39 1999  Norbert E. Gruener  <nog@MPA-Garching.MPG.DE>
+
+	* rcsfreeze.pl: 
+	function retrieve_logmsg changed
+	POD doku changed (REVISION HISTORY)
+
+	* rcsfreeze.pl: 
+	Initial revision
+
